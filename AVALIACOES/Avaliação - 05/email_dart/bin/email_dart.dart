@@ -4,7 +4,7 @@ import 'package:mailer/smtp_server/gmail.dart';
 
 void main() async {
   // Email do remetente
-  final email = "claudiaaraujo0809@gmail.com";
+  final email = "vitoria22112007@gmail.com";
 
   // Senha do remetente
   final senha = "";
@@ -14,8 +14,8 @@ void main() async {
 
   // Cria a mensagem
   final mensagem = Message()
-    ..from = Address(email, "Arthur De Araújo")
-    ..recipients.add("araujo.arthur61@aluno.ifce.edu.br")
+    ..from = Address(email, "vitória Pereira de Oliveira")
+    ..recipients.add("vitoria.pereira09@aluno.ifce.edu.br")
     ..subject = "Teste de envio"
     ..text = "Este é um e-mail de teste";
 
